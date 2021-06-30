@@ -27,6 +27,9 @@ body {
 
 .main-heading {
     color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    font-size: 26px;
+    text-align: center;
 }
 
 .accent-main-title {
@@ -36,6 +39,7 @@ body {
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
+    border: 1px solid yellowgreen;
 }
 
 .main-image {
@@ -71,7 +75,6 @@ body {
     .container {
         margin: 2rem 4rem;
         border: 3px solid hotpink;
-        border-radius: 10px;
     }
 
     .main-image {
