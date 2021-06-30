@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -12,14 +11,52 @@
       href="./images/favicon-32x32.png"
     />
 
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
-  <body>
-    Get insights that help your business grow. Discover the benefits of data
-    analytics and make better decisions regarding revenue, customer experience,
-    and overall efficiency. 10k+ companies 314 templates 12m+ queries
+  <body class="body-styles">
+    <div class="container">
+      <img
+        src="./images/image-header-desktop.jpg"
+        alt="Main image picture"
+        class="mainImage"
+      />
+      <!-- <img
+        src="./images/image-header-desktop.jpg"
+        alt="Main image picture"
+        class="mainImage"
+        srcset="
+          ./images/image-header-mobile.jpg  654w,
+          ./images/image-header-desktop.jpg 540w
+        "
+        sizes="(max-width: 600px) 480px, 800px"
+      /> -->
+
+      <div class="main-heading inter-700-font">
+        Get insights that help your business grow.
+      </div>
+
+      <div class="inter-400-font">
+        Discover the benefits of data analytics and make better decisions
+        regarding revenue, customer experience, and overall efficiency.
+      </div>
+
+      <div class="stats-numbers lexend-deca-400-font">
+        <div>10k+</div>
+        <span className="stats-headings" id="stats-headings">companies</span>
+        <div>314</div>
+        <span className="stats-headings">templates</span>
+        <div>12m+</div>
+        <span className="stats-headings">queries</span>
+      </div>
+
+      <!-- <div class="stats-headings lexend-deca-400-font">
+        <div>companies</div>
+        <div>templates</div>
+        <div>queries</div>
+      </div> -->
+    </div>
 
     <div class="attribution">
       Challenge by

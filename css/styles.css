@@ -1,6 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+
+
+.lexend-deca-400-font {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;;
+}
+.inter-400-font {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.inter-700-font {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.body-styles {
+    background-color: hsl(233, 47%, 7%);
+}
+
+.main-heading {
+    color: hsl(0, 0%, 100%);
+}
+
+/* .stats-headings {
+    color: hsla(0, 0%, 100%, 0.6);
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats-numbers {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: flex-start;
+} */
+
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+/* if the device width is less than or equal to 375px, then do... */
+@media only screen and (max-width: 375px) {
+    body {
+        /* background: url("../images/image-header-mobile.jpg"); */
+        border: solid 1px yellow;
+    }
+
+    .container {
+        margin: 2rem 4rem;
+        border: 3px solid white;
+        /* text-align: center; */
+    }
+
+
+#stats-headings {
+    /* color: hsla(0, 0%, 100%, 0.6); */
+    color: red;
+    /* display: flex;
+    justify-content: space-between; */
+    border: solid orange 1px;
+}
+
+.stats-numbers {
+    color: hsl(0, 0%, 100%);
+    color: yellow;
+    /* display: flex;
+    justify-content: flex-start; */
+}
 }
 
 .attribution { font-size: 11px; text-align: center; }
