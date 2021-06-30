@@ -28,7 +28,7 @@ body {
 .main-heading {
     color: hsl(0, 0%, 100%);
     padding: 1rem;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -38,8 +38,11 @@ body {
 
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 15px;
+    font-size: 12px;
     border: 1px solid yellowgreen;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.1rem;
 }
 
 .main-image {
@@ -50,17 +53,6 @@ body {
     text-transform: uppercase;
 }
 
-/* .stats-headings {
-    color: hsla(0, 0%, 100%, 0.6);
-    display: flex;
-    justify-content: space-between;
-}
-
-.stats-numbers {
-    color: hsl(0, 0%, 100%);
-    display: flex;
-    justify-content: flex-start;
-} */
 
 /* - Mobile: 375px
 - Desktop: 1440px */
