@@ -39,10 +39,9 @@ body {
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 12px;
-    border: 1px solid yellowgreen;
-    padding: 1rem;
+    /* padding: 0 1rem;
     text-align: center;
-    line-height: 1.1rem;
+    line-height: 1.1rem; */
 }
 
 .main-image {
@@ -59,8 +58,7 @@ body {
 
 /* if the device width is less than or equal to 375px, then do... */
 @media only screen and (max-width: 375px) {
-    body {
-        
+    body { 
         border: solid 1px yellow;
     }
 
@@ -73,23 +71,42 @@ body {
         width: 100%;
         border-radius: 5px 5px 0 0;
     }
+
+    .main-paragraph {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 12px;
+        padding: 0 1rem;
+        text-align: center;
+        line-height: 1.3rem;
+        margin-bottom: 2rem;
+    }
     
-    #stats-headings {
-        /* color: hsla(0, 0%, 100%, 0.6); */
-        color: red;
+    .stats-container {
+        border: 1px solid yellow;
+        text-align: center;
+        /* color: hsl(0, 0%, 100%); */
+        
+        
         /* display: flex;
-        justify-content: space-between; */
-        border: solid orange 1px;
-        font-size: 15px;
+        justify-content: flex-start; */
     }
 
-.stats-numbers {
-    color: hsl(0, 0%, 100%);
-    color: yellow;
-    font-size: 15px;
-    /* display: flex;
-    justify-content: flex-start; */
+    .stats-numbers {
+        color: hsl(0, 0%, 100%);
+        font-size: 15px;
+        line-height: 1.5rem;
+        font-size: 18px;
+        
+        /* display: flex;
+        justify-content: flex-start; */
     }
+
+    .stats-headings {
+        color: hsla(0, 0%, 100%, 0.6);
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
 }
 
 .attribution { font-size: 11px; text-align: center; }
