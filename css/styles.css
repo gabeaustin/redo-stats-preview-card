@@ -70,12 +70,12 @@ body {
 /* if the device width is less than or equal to 375px, then do... */
 @media only screen and (max-width: 375px) {
     body { 
-        border: solid 1px yellow;
+        /* border: solid 1px yellow; */
     }
 
     .container {
         margin: 2rem 4rem;
-        border: 3px solid hotpink;
+        /* border: 3px solid hotpink; */
         background-color: hsl(244, 38%, 16%);
     }
 
