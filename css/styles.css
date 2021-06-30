@@ -52,6 +52,17 @@ body {
     text-transform: uppercase;
 }
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
 
 /* - Mobile: 375px
 - Desktop: 1440px */
@@ -65,6 +76,7 @@ body {
     .container {
         margin: 2rem 4rem;
         border: 3px solid hotpink;
+        background-color: hsl(244, 38%, 16%);
     }
 
     .main-image {
@@ -84,11 +96,7 @@ body {
     .stats-container {
         border: 1px solid yellow;
         text-align: center;
-        /* color: hsl(0, 0%, 100%); */
-        
-        
-        /* display: flex;
-        justify-content: flex-start; */
+        margin-bottom: 2rem;
     }
 
     .stats-numbers {
@@ -96,18 +104,13 @@ body {
         font-size: 15px;
         line-height: 1.5rem;
         font-size: 18px;
-        
-        /* display: flex;
-        justify-content: flex-start; */
     }
 
     .stats-headings {
         color: hsla(0, 0%, 100%, 0.6);
         font-size: 10px;
         letter-spacing: 1px;
+        margin-bottom: 12rem;
     }
 
 }
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
