@@ -19,24 +19,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid honeydew;
 }
 
 .container {
     display: flex;
     flex-direction: row-reverse;
+    /* margin: 5rem; */
     background-color: hsl(244, 38%, 16%);
-    margin: 5rem;
 }
-
-.text-container {
-    padding: 4rem 4rem 0 4rem;
-    border: 2px red solid;
-}
-
-/* come back to image container  */
-/* .image-container {
-
-} */
 
 .body-styles {
     background-color: hsl(233, 47%, 7%);
@@ -46,8 +37,8 @@ body {
     color: hsl(0, 0%, 100%);
     /* margin: 5rem; */
     font-size: 25px;
-    margin: 1.5rem 0;
-    border: solid 1px lightskyblue;
+    /* padding: 1.5rem 1.5rem 1rem 3rem; */
+    /* border: solid 1px lightskyblue; */
 }
 
 .mobile-image {
@@ -58,6 +49,7 @@ body {
     border-radius: 0 10px 10px 0;
     object-fit: cover;
     opacity: 0.6;
+    width: 100%;
 }
 
 .image-container-overlay { 
@@ -73,13 +65,9 @@ body {
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
-    margin-bottom: 5.5rem;
+    /* margin-bottom: 5.5rem; */
     line-height: 1.5rem;
-    border: solid 1px lightyellow;
-}
-
-.desktop-image {
-    width: 100%;
+    /* border: solid 1px lightyellow; */
 }
 
 .uppercase-text {
@@ -87,11 +75,26 @@ body {
 }
 
 .stats-container {
-    /* text-align: center; */
-    /* padding-bottom: 2rem; */
     display: flex;
-    flex-direction: row;
 }
+
+#companies > p,
+#queries > p,
+#templates > p {
+    color: hsl(0, 0%, 100%, 0.5);
+    white-space: pre-line;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+.stats-numbers {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.5rem;
+    font-size: 22px;
+}
+
 
 
 /* footer */
@@ -146,8 +149,8 @@ body {
     
     .stats-numbers {
         color: hsl(0, 0%, 100%);
-        font-size: 22px;
         margin-bottom: 0.3rem;
+        font-size: 22px;
     }
 
     .stats-headings {
