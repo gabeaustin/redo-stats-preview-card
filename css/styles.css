@@ -19,25 +19,21 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: hsl(233, 47%, 7%);
 }
 
 .container {
     display: flex;
     flex-direction: row-reverse;
-    margin: 8rem 15rem;
+    margin: 4rem 15rem 2rem 15rem;
     background-color: hsl(244, 38%, 16%);
-}
-
-.body-styles {
-    background-color: hsl(233, 47%, 7%);
+    border-radius: 10px;
 }
 
 .main-heading {
     color: hsl(0, 0%, 100%);
     display: block;
-    margin: 2rem;
-    /* padding: 5rem; */
-    /* padding: 1.5rem 1.5rem 1rem 3rem; */
+    margin: 3rem 2rem 2rem 3rem;
     font-size: 2rem; /* equivalent to 32px */
 }
 
@@ -49,7 +45,9 @@ body {
     border-radius: 0 10px 10px 0;
     object-fit: cover;
     opacity: 0.6;
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 .image-container-overlay { 
@@ -65,14 +63,12 @@ body {
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 0.9rem; /* equivalent to 14px */
-    margin: 2rem;
-    /* margin-bottom: 5rem; */
+    margin: 0 2rem 2rem 3rem;
     line-height: 1.5rem;
     display: block;
 }
 
 .text-container {
-    border: 1px solid pink;
     display: block;
     width: 500px;
     padding: 0;
@@ -85,7 +81,7 @@ body {
 .stats-container {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    margin: 0 3rem 2rem 3rem;;
 }
 
 #companies > p,
@@ -104,10 +100,18 @@ body {
 
 
 /* footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
 .attribution { 
     font-size: 0.8rem; /* equivalent to 12px */
     text-align: center; 
     color: hsl(0, 0%, 100%);
+    border: 1px solid pink;
 }
 
 .attribution a { 
