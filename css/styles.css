@@ -35,6 +35,7 @@ body {
 .main-heading {
     color: hsl(0, 0%, 100%);
     display: block;
+    margin: 2rem;
     /* padding: 5rem; */
     /* padding: 1.5rem 1.5rem 1rem 3rem; */
     font-size: 2rem; /* equivalent to 32px */
@@ -64,6 +65,7 @@ body {
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 0.9rem; /* equivalent to 14px */
+    margin: 2rem;
     /* margin-bottom: 5rem; */
     line-height: 1.5rem;
     display: block;
@@ -82,6 +84,8 @@ body {
 
 .stats-container {
     display: flex;
+    justify-content: space-between;
+    padding: 2rem;
 }
 
 #companies > p,
@@ -89,14 +93,11 @@ body {
 #templates > p {
     color: hsl(0, 0%, 100%, 0.5);
     font-size: 0.8rem; /* equivalent to 12px */
-    letter-spacing: 1.5px;
-    /* padding-right: 2em; */
-    /* padding-bottom: 2em; */
+    letter-spacing: 1.2px;
 }
 
 .stats-numbers {
     color: hsl(0, 0%, 100%);
-    /* margin-bottom: 0.5rem; */
     font-size: 1.5rem; /* equivalent to 24px */
 }
 
