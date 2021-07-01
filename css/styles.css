@@ -24,15 +24,19 @@ body {
 .container {
     display: flex;
     flex-direction: row-reverse;
+    background-color: hsl(244, 38%, 16%);
+    margin: 10rem;
+
+    border: solid 2px orange;
 }
 
 .text-container {
     border: 2px red solid;
 }
 
-.image-container {
+/* .image-container {
 
-}
+} */
 
 .body-styles {
     background-color: hsl(233, 47%, 7%);
@@ -67,9 +71,9 @@ body {
     line-height: 1.1rem; */
 }
 
-/* .main-image {
-    width: 50%;
-} */
+.desktop-image {
+    width: 100%;
+}
 
 .uppercase-text {
     text-transform: uppercase;
