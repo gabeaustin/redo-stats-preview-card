@@ -19,13 +19,12 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid honeydew;
 }
 
 .container {
     display: flex;
     flex-direction: row-reverse;
-    margin: 10rem;
+    margin: 8rem 15rem;
     background-color: hsl(244, 38%, 16%);
 }
 
@@ -35,10 +34,10 @@ body {
 
 .main-heading {
     color: hsl(0, 0%, 100%);
-    /* margin: 5rem; */
-    font-size: 25px;
+    display: block;
+    /* padding: 5rem; */
     /* padding: 1.5rem 1.5rem 1rem 3rem; */
-    /* border: solid 1px lightskyblue; */
+    font-size: 2rem; /* equivalent to 32px */
 }
 
 .mobile-image {
@@ -64,10 +63,17 @@ body {
 
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 15px;
-    /* margin-bottom: 5.5rem; */
+    font-size: 0.9rem; /* equivalent to 14px */
+    /* margin-bottom: 5rem; */
     line-height: 1.5rem;
-    /* border: solid 1px lightyellow; */
+    display: block;
+}
+
+.text-container {
+    border: 1px solid pink;
+    display: block;
+    width: 500px;
+    padding: 0;
 }
 
 .uppercase-text {
@@ -82,24 +88,23 @@ body {
 #queries > p,
 #templates > p {
     color: hsl(0, 0%, 100%, 0.5);
-    white-space: pre-line;
-    font-size: 12px;
+    font-size: 0.8rem; /* equivalent to 12px */
     letter-spacing: 1.5px;
-    padding-right: 2em;
-    padding-bottom: 2em;
+    /* padding-right: 2em; */
+    /* padding-bottom: 2em; */
 }
 
 .stats-numbers {
     color: hsl(0, 0%, 100%);
-    margin-bottom: 0.5rem;
-    font-size: 22px;
+    /* margin-bottom: 0.5rem; */
+    font-size: 1.5rem; /* equivalent to 24px */
 }
 
 
 
 /* footer */
 .attribution { 
-    font-size: 11px; 
+    font-size: 0.8rem; /* equivalent to 12px */
     text-align: center; 
     color: hsl(0, 0%, 100%);
 }
