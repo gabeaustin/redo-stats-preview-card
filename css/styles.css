@@ -21,6 +21,19 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-container {
+    border: 2px red solid;
+}
+
+.image-container {
+
+}
+
 .body-styles {
     background-color: hsl(233, 47%, 7%);
 }
@@ -30,6 +43,7 @@ body {
     padding: 1rem;
     font-size: 22px;
     text-align: center;
+    border: solid 1px lightskyblue;
 }
 
 .mobile-image {
@@ -47,6 +61,7 @@ body {
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 12px;
+    border: solid 1px lightyellow;
     /* padding: 0 1rem;
     text-align: center;
     line-height: 1.1rem; */
