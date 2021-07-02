@@ -129,6 +129,8 @@ footer {
 /* @media only screen and (max-width: 415px) { */
 @media only screen and (max-width: 375px) {
     .container {
+        display: flex;
+        flex-direction: column;
         margin: 2rem 4rem;
         background-color: hsl(244, 38%, 16%);
         border-radius: 10px;
@@ -155,11 +157,14 @@ footer {
     }
 
     .text-container {
-        width: 100%;
+        /* width: 100%; */
+        /* display: block; */
+        border: solid pink 1px;
     }
     
     .image-container {
-        width: 100%;
+        /* width: 100%; */
+        border: solid pink 1px;
     }
 
     .main-paragraph {
