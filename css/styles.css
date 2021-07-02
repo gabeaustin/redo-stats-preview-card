@@ -101,7 +101,6 @@ body {
     font-size: 1.5rem; /* equivalent to 24px */
 }
 
-/* footer */
 footer {
     position: absolute;
     bottom: 0;
@@ -130,9 +129,10 @@ footer {
     .container {
         display: flex;
         flex-direction: column;
-        margin: 4rem 2rem;
+        margin: 4rem 2rem 0 2rem; /* changed padding-bottom to 0 for sticky footer */
         background-color: hsl(244, 38%, 16%);
         border-radius: 10px;
+        min-height: 100%;
     }
 
     .desktop-image {
@@ -161,7 +161,7 @@ footer {
     .image-container {
         width: 100%;
     }
-    
+
     .main-paragraph {
         text-align: center;
         margin: 2rem 1rem;
@@ -174,18 +174,8 @@ footer {
     }
 
     footer {
+        margin-top: 2rem;
         position: relative;
-
     }
-
-    /* footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 2rem;
-        padding-bottom: 1rem;
-    } */
-    
-    
 
 }
