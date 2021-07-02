@@ -25,7 +25,7 @@ body {
 .container {
     display: flex;
     flex-direction: row-reverse;
-    margin: 4rem 15rem 2rem 15rem;
+    margin: 4rem 10rem 0 10rem;
     background-color: hsl(244, 38%, 16%);
     border-radius: 10px;
 }
@@ -45,9 +45,19 @@ body {
     border-radius: 0 10px 10px 0;
     object-fit: cover;
     opacity: 0.6;
-    max-width: 100%;
+    width: 100%;
     display: block;
     height: auto;
+}
+
+.text-container {
+    width: 50%;
+    display: block;
+}
+
+.image-container {
+    width: 50%;
+    display: block;
 }
 
 .image-container-overlay { 
@@ -66,12 +76,6 @@ body {
     margin: 0 2rem 2rem 3rem;
     line-height: 1.5rem;
     display: block;
-}
-
-.text-container {
-    display: block;
-    width: 500px;
-    padding: 0;
 }
 
 .uppercase-text {
@@ -96,8 +100,6 @@ body {
     color: hsl(0, 0%, 100%);
     font-size: 1.5rem; /* equivalent to 24px */
 }
-
-
 
 /* footer */
 footer {
@@ -124,7 +126,8 @@ footer {
 - Desktop: 1440px */
 
 /* if the device width is less than or equal to 415px, then do... */
-@media only screen and (max-width: 415px) {
+/* @media only screen and (max-width: 415px) { */
+@media only screen and (max-width: 375px) {
     .container {
         margin: 2rem 4rem;
         background-color: hsl(244, 38%, 16%);
@@ -139,6 +142,14 @@ footer {
         display: block;
         width: 100%;
         border-radius: 10px 10px 0 0;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+    
+    .image-container {
+        width: 100%;
     }
 
     .main-paragraph {
