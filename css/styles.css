@@ -142,6 +142,16 @@ footer {
         display: block;
         width: 100%;
         border-radius: 10px 10px 0 0;
+        object-fit: cover;
+        height: auto;
+    }
+
+
+    .main-heading {
+        /* color: hsl(0, 0%, 100%); */
+        /* display: block; */
+        margin: 3rem 0rem 2rem 3rem;
+        /* font-size: 2rem; */ /* equivalent to 32px */
     }
 
     .text-container {
