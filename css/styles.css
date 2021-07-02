@@ -125,13 +125,13 @@ footer {
 /* - Mobile: 375px
 - Desktop: 1440px */
 
-/* if the device width is less than or equal to 415px, then do... */
+/* if the device width is less than or equal to 540px, then do... */
 /* @media only screen and (max-width: 415px) { */
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 540px) {
     .container {
         display: flex;
         flex-direction: column;
-        margin: 2rem 4rem;
+        margin: 4rem 2rem;
         background-color: hsl(244, 38%, 16%);
         border-radius: 10px;
     }
@@ -149,7 +149,10 @@ footer {
     }
 
     .main-heading {
-        margin: 3rem 0rem 2rem 3rem;
+        margin: 2rem 1rem;
+        border: 1px solid lightgreen;
+        font-size: 1.8rem;
+        text-align: center;
     }
 
     .text-container {
@@ -170,6 +173,9 @@ footer {
 
     .main-paragraph {
         text-align: center;
+        border: 1px solid yellow;
+        margin: 2rem 1rem;
+        font-size: 1rem;
     }
     
     .stats-container {
