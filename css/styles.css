@@ -127,7 +127,7 @@ footer {
 
 /* if the device width is less than or equal to 415px, then do... */
 /* @media only screen and (max-width: 415px) { */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 415px) {
     .container {
         display: flex;
         flex-direction: column;
@@ -148,65 +148,47 @@ footer {
         height: auto;
     }
 
-
     .main-heading {
-        /* color: hsl(0, 0%, 100%); */
-        /* display: block; */
         margin: 3rem 0rem 2rem 3rem;
-        /* font-size: 2rem; */ /* equivalent to 32px */
     }
 
     .text-container {
-        /* width: 100%; */
-        /* display: block; */
+        width: 100%;
         border: solid pink 1px;
     }
     
     .image-container {
-        /* width: 100%; */
+        width: 100%;
         border: solid pink 1px;
     }
 
+    /* .image-container-overlay { 
+        background: hsl(277, 64%, 61%);
+        overflow: hidden;
+        border-radius: 0px 10px 10px 0px;
+    } */
+
     .main-paragraph {
-        color: hsla(0, 0%, 100%, 0.75);
-        font-size: 12px;
-        padding: 0 1rem;
         text-align: center;
-        line-height: 1.3rem;
-        margin-bottom: 2rem;
     }
     
     .stats-container {
         text-align: center;
-        padding-bottom: 2rem;
-        display: flex;
         flex-direction: column;
-    }
-    
-    .stats-numbers {
-        color: hsl(0, 0%, 100%);
-        margin-bottom: 0.3rem;
-        font-size: 22px;
-    }
-
-    .stats-headings {
-        color: hsla(0, 0%, 100%, 0.6);
-        font-size: 12px;
-        letter-spacing: 1.5px;
-        margin-bottom: 2rem;
-    }
-
-    #stats-headings-last-heading {
-        margin-bottom: 0;
     }
 
     footer {
         position: relative;
+
+    }
+
+    /* footer {
+        position: absolute;
         bottom: 0;
         width: 100%;
         height: 2rem;
         padding-bottom: 1rem;
-    }
+    } */
     
     
 
