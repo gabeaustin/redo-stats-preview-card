@@ -33,8 +33,8 @@ body {
 .main-heading {
     color: hsl(0, 0%, 100%);
     display: block;
-    margin: 3rem 8rem 2rem 5rem;
-    font-size: 2rem;
+    margin: 3rem 2rem 2rem 3rem;
+    font-size: 2rem; /* equivalent to 32px */
 }
 
 .mobile-image {
@@ -73,7 +73,7 @@ body {
 .main-paragraph {
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 0.9rem; /* equivalent to 14px */
-    margin: 0 8rem 4rem 5rem;
+    margin: 0 2rem 2rem 3rem;
     line-height: 1.5rem;
     display: block;
 }
@@ -85,7 +85,7 @@ body {
 .stats-container {
     display: flex;
     justify-content: space-between;
-    margin: 0 8rem 4rem 5rem;
+    margin: 0 3rem 2rem 3rem;;
 }
 
 #companies > p,
@@ -120,12 +120,7 @@ footer {
 }
 
 
-/* For Testing */ 
-/* - Mobile: 375px
-- Desktop: 1440px */
-
-/* if the device width is less than or equal to 540px, then do... */
-/* @media only screen and (max-width: 540px) { */
+/* if the device width is less than or equal to 768px, then do... */
 @media only screen and (max-width: 768px) {
     .container {
         display: flex;
@@ -179,4 +174,4 @@ footer {
         position: relative;
     }
 
-}
+}   
