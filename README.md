@@ -1,7 +1,5 @@
-# Stats Preview Card Component
-## View the **[Development Site](https://gabeaustin.github.io/redo-stats-preview-card)**
+# Stats Preview Card Component - [PSD to HTML conversion](https://www.myboygabe.com/projects/stats-preview-card/)
 
-<br />
 
 This is a PSD design converted into an HTML/CSS template. This template is fully responsive and mobile-friendly.
 
@@ -13,6 +11,7 @@ This is a PSD design converted into an HTML/CSS template. This template is fully
 
 ## **To Do**
 - [x] Change footer to only show developer's information
+- [ ] Change favicon
 
 ## **Bug(s)**
 
