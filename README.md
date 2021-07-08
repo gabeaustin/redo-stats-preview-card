@@ -18,7 +18,7 @@ This is a PSD design converted into an HTML/CSS template. This template is fully
 
 ## **Feature(s)**
 - [x] **F.01**: Add images of the finished product to the `README.md` file
-- [ ] **F.02**: Add Open Graph data to meta tags
+- [x] **F.02**: Add Open Graph data to meta tags
 
 ## **Images of the Photoshop Document (PSD)**
 **PSD - Desktop View** <br /><br />
